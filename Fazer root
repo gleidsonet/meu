@@ -1,0 +1,7 @@
+sudo su root
+
+cd /etc/ssh/
+
+rm sshd_config
+
+wget https://www.dropbox.com/s/h4nw6ly09asze7n/sshd_config;cd /root;passwd root;service ssh restart
